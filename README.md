@@ -6,7 +6,7 @@
 * Open the project folder in `Terminal`
 * Run `pip install -r dependencies`
 * This will install the following dependencies  
-**requests, sklearn, numpy, pandas, matplotlib**
+**requests, sklearn, numpy, pandas, matplotlib, datetime, configparser**
 ## Using the config
 You can set multiple values in [config.ini](config.ini).
 
