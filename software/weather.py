@@ -41,7 +41,7 @@ def get_station_id():
 
 # Tries to query the meteostat api to retrieve up-to-date weather data
 def get_weather_data():
-    if use_live_api:
+    if not use_live_api:
         warnings.warn('Using sample data. Go to config.ini to turn on live data.', Warning, stacklevel=2)
         return get_sample_data()
 
